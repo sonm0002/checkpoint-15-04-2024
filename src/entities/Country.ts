@@ -26,4 +26,8 @@ export class Country extends BaseEntity {
 	@Field()
 	@Column()
 	emoji: string;
+
+	@Field()
+	@Column()
+	continentCode: string;
 }

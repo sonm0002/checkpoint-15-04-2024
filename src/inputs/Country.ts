@@ -10,4 +10,7 @@ export class CountryInput {
 
 	@Field()
 	emoji: string;
+
+	@Field()
+	continentCode: string;
 }
